@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="start"
+    tools:context=".FairfieldbyMarriottGoa">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/scroll">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:background="@color/teal_700"
+            android:id="@+id/fairfieldbymarriottgoaslider"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            app:auto_cycle="true"
+            app:corner_radius="5"
+            app:delay="0"
+            app:error_image="@color/teal_200"
+            app:period="2000"
+            app:placeholder="@color/teal_700"
+            android:src="@drawable/zostel_leh" />
+        <ScrollView
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_200">
+            <LinearLayout
+                android:background="@color/textviewcolor"
+                android:elevation="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imagelayout"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="40dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:text="Fairfield by Marriott Goa"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/headingtextbackground"
+                    android:elevation="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="About This Hotel"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+                <LinearLayout
+                    android:background="@drawable/navheadersyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+                    <com.codesgood.views.JustifiedTextView
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:elevation="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/heading"
+                        android:id="@+id/description"
+                        android:text="Featuring a outdoor lap pool with Jacuzzi within the premises the hotel is located within a close proximity to beaches, Fairfield by Marriott is a beautiful leisure hotel in Goa. The hotel offers world class facilities, about 1248 sq. ft of event space and amazing service. The rooms are classy, some of the room offer lovely pool view and complimentary Port Wine(Pint. The hotel is 3 km away from Anjuna Beach."/>
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:elevation="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/heading"
+                        android:id="@+id/description2"
+                        android:text="You can choose from Fairfield Room, Fairfield Premium and Fairfield Studio. All rooms come with coffee/tea makers, centralized air conditioning, flat screen TV, bathrooms, complimentary toiletries, refrigerator and a a private balcony with a seating area. Laundry and room service are also offered. Kava is the multi cuisine restaurant. It is popular for its eclectic menu which is designed curated by Executive Chef along with Ice cream cart for the kids and one can also sit at the attached bar in the restaurant to grab a refreshing drink. The hotel also has a poolside bar. Hotel also provide In-room Dining with round-the-clock options as well."/>
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:elevation="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/heading"
+                        android:id="@+id/description3"
+                        android:text="The hotel has its own travel desk, parking space, complimentary shuttle service to Anjuna beach and fitness centre. You can enjoy complimentary Wi-Fi anywhere in the hotel and use the 4 spacious meeting rooms and 4 wedding/banquet halls. "/>
+
+
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/headingtextbackground"
+                    android:elevation="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Direction"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+                <fragment
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:id="@+id/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"/>
+
+                <TextView
+                    android:elevation="20dp"
+                    android:background="@drawable/headingtextbackground"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/heading1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:textColor="@color/black"
+                    android:text="Additional Information"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/navheadersyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:elevation="20dp"
+                        android:textSize="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/heading"
+                        android:id="@+id/description1"
+                        android:text="@string/FairfieldbyMarriottGoaAdditional" />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

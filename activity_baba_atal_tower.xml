@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="start"
+    tools:context=".BabaAtalTower">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/scroll">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/babaataltowerslider"
+            android:background="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:auto_cycle="true"
+            app:corner_radius="5"
+            app:delay="0"
+            app:error_image="@color/teal_200"
+            app:period="2000"
+            app:placeholder="@color/teal_700" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_200">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imagelayout"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:elevation="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:background="@drawable/headingtextbackground"
+                    android:text="Baba Atal Tower"/>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/heading"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/navheadersyle"
+                    android:elevation="15dp"
+                    android:text="Often overshadowed by the neighboring Golden Temple, Baba Atal Tower is a worthwhile attraction in Amritsar in its own right. The structure is an architectural marvel, with nine octagonal stories stacked 40 meters high, making it one of the tallest structures in Amritsar.
+
+Baba Atal Tower is dedicated to Atal Rai, the son of a Sikh guru. Legend has it that Atal Rai performed the miracle of bringing someone back from the dead, and then gave up his life in penance for the sin of interfering with God's work. The sightseeing opportunities from the top of the tower are some of the best in all of Amritsar."/>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:background="@drawable/headingtextbackground"
+                    android:elevation="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/heading2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:text="Direction"/>
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:elevation="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+                    <fragment
+                        android:name="com.google.android.gms.maps.SupportMapFragment"
+                        android:id="@+id/map"
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:elevation="20dp"
+                    android:background="@drawable/headingtextbackground"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/heading1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:textColor="@color/black"
+                    android:text="Additional Information"/>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:id="@+id/description2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/heading"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/navheadersyle"
+                    android:elevation="15dp"
+                    android:text="Address: Clock Tower Building, Atta Mandi, Katra Ahluwalia, Amritsar."/>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"/>
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

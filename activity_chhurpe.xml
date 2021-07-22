@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start"
+    tools:context=".Chhurpe">
+
+    <LinearLayout
+        android:elevation="5dp"
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/chhurpeslider"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/teal_700"
+            app:auto_cycle="true"
+            app:corner_radius="5"
+            app:delay="0"
+            app:error_image="@color/teal_200"
+            app:period="2000"
+            app:placeholder="@color/teal_700" />
+
+        <ScrollView
+            android:backgroundTint="@color/teal_200"
+            android:padding="8dp"
+            android:elevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_200">
+
+            <LinearLayout
+                android:elevation="5dp"
+                android:id="@+id/imagelayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/textviewcolor"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/headinglayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="15dp"
+                    android:weightSum="5"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/heading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="3"
+                        android:background="@drawable/headingtextbackground"
+                        android:elevation="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Chhurpe"
+                        android:textColor="@color/black"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=" " />
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_button_rounded"
+                        android:elevation="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="right"
+                        android:text="Rs. 160"
+                        android:textColor="@color/black"
+                        android:textSize="25dp" />
+                </LinearLayout>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/heading"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="40dp"
+                    android:background="@drawable/navheadersyle"
+                    android:elevation="15dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="10dp"
+                    android:text="Chhurpe, made from the milk of dzomo (a hybrid between domestic cattle and yak), is used as an ingredient to create flavourful delicacies in Ladakh. It is white and is added to thukpa to bring out flavour when vegetables or meat are not available in winter. Chhurpe is also added to tsampa (roasted barley flour) and mixed with Tibetan butter tea to prepare kholak which is then eaten with vegetables or minced meat. It is a rich source of vitamins and proteins. Chhurpe is found in two varieties: soft and hard."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>
