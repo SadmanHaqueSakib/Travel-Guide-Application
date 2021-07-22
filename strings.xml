@@ -1,0 +1,477 @@
+<resources>
+    <string name="app_name">TravelMania</string>
+    <string name="navigaton_drawer_open">Open Navigation Drawer</string>
+    <string name="navigaton_drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_global_chat">GlobalChat</string>
+    <string name="Row">GlobalChat</string>
+
+
+    <string name="AkshardhamAdditional" translatable="false"><b>Timings:</b> 09:30 am to 06:30 pm.
+        \n<b>Entry Fee:</b> INR 170 (Adults), INR 100 (Children).
+        \n<b>Nearest Metro Station:</b> Akshardham, New Delhi.</string>
+
+    <string name="RedfortAdditional" translatable="false"><b>Timings:</b> 09:30 am to 04:30 pm (closed on Mondays).
+        \n<b>Entry Fee:</b> INR 10 (Indian citizens) and INR 150 (foreign nationals).
+        \n<b>Nearest Metro Station:</b> Chandni Chowk, New Delhi.</string>
+
+    <string name="IndiagateAdditional" translatable="false"><b>Timings:</b> 24 hours a day, seven days a week.
+        \n<b>Nearest Metro Station:</b> Central Secretariat, New Delhi.</string>
+
+    <string name="KingdomofdreamsAdditional" translatable="false"><b>Timings:</b> 12:30 pm to 12:00 am on weekdays and 12:00 pm to 12:00 am on weekends.
+        \n<b>Entry Fee:</b> Tickets (Amusement Park + Water Park) INR 1000 (Adults), INR 800 (Children).
+        \n<b>Nearest Metro Station:</b> IFFCO Chowk, Gurugram.</string>
+
+    <string name="WorldsofwonderAdditional" translatable="false"><b>Timings:</b> 10:30 am to 7:00 pm.
+        \n<b>Entry Fee:</b> INR 10 (Indian citizens) and INR 150 (foreign nationals).
+        \n<b>Nearest Metro Station:</b> Sector-18, Noida.</string>
+
+    <string name="KidzaniaAdditional" translatable="false"><b>Timings:</b> 10:30 am to 6:30 pm (Tuesdays-Thursdays) and 10:30 am to 8:00 pm (Fridays-Sundays), Closed on Mondays.
+        \n<b>Entry Fee:</b> Tickets INR 1300 (Kids); INR 700 (For Toddlers); INR 500 (Adults).
+        \n<b>Nearest Metro Station:</b> Sector-18, Noida.</string>
+
+    <string name="FunnfoodvillageAdditional" translatable="false"><b>Timings:</b> 10:00 am to 6:00 pm.
+        \n<b>Entry Fee:</b> INR 300 (Kids) and INR 1000 (Adults).
+        \n<b>Nearest Metro Station:</b> Dwarka Sector 21, New Delhi.</string>
+
+    <string name="SnowworldAdditional" translatable="false"><b>Timings:</b> 11:00 am to 10:00 pm.
+        \n<b>Entry Fee:</b> Ticket Price INR 1150.
+        \n<b>Nearest Metro Station:</b> Sector-18, Noida.</string>
+
+    <string name="QutubminarAdditional" translatable="false"><b>Timings:</b> 7:00 am to 5:00 pm.
+        \n<b>Entry Fee:</b> INR 30 (Indians); INR 500 (foreign nationals).
+        \n<b>Nearest Metro Station:</b> Qutub Minar metro station,New Delhi.</string>
+
+    <string name="LotustempleAdditional" translatable="false"><b>Timings:</b> 9:00 am to 5:00 pm.
+        \n<b>Nearest Metro Station:</b> Kalkaji Mandir, New Delhi.</string>
+
+    <string name="JamamasjidAdditional" translatable="false"><b>Timings:</b> 7:00 am to 12:00 pm, 1:30 pm to 6:30 pm.
+        \n<b>Nearest Metro Station:</b> Jama Masjid, New Delhi.</string>
+
+    <string name="HumayunstombAdditional" translatable="false"><b>Timings:</b> 6:00 am to 6:00 pm.
+        \n<b>Entry Fee:</b> INR 30 (Indians); INR 500 (foreign nationals).
+        \n<b>Nearest Metro Station:</b> Jor Bagh, New Delhi.</string>
+
+    <string name="RashtrapratibhabanAdditional" translatable="false"><b>Timings:</b> 9:00 am to 4:00 pmCircuit 1: Open on Thursday-SundayCircuit 2: Open on all days except MondayCircuit 3: Open on Thursday-Sunday (November-March).
+        \n<b>Entry Fee:</b> INR 50.
+        \n<b>Nearest Metro Station:</b> Central Secretariat, New Delhi.</string>
+
+    <string name="PuranaqilaAdditional" translatable="false"><b>Timings:</b> 7:00 AM to 5:00 PM every day.
+        \n<b>Entry Fee:</b> Indians – ₹30, Non-Indians – ₹500.
+        \n<b>Nearest Metro Station:</b> Indraprastha Metro Station.</string>
+
+    <string name="WestofwonderparkAdditional" translatable="false"><b>Timings:</b> 11:00 AM to 11:00 PM (Closed on Mondays).
+        \n<b>Entry Fee:</b> Adults – ₹50, Children (3-12 years) – ₹25, Free for Municipality school students, senior citizens, and children under 3 years.
+        \n<b>Nearest Metro Station:</b> Nizammudin Metro station.</string>
+
+    <string name="GurudwarabanglasahibAdditional" translatable="false"><b>Timings:</b> Open 24 hours a day.
+        \n<b>Entry Fee:</b> N/A.
+        \n<b>Nearest Metro Station:</b> Rajiv Chowk Metro Station.</string>
+
+    <string name="MehrauliarchaeologicalparkAdditional" translatable="false"><b>Timings:</b> 8:00 AM to 6:30 PM on all days of the week.
+        \n<b>Entry Fee:</b> N/A.
+        \n<b>Nearest Metro Station:</b> Qutub Minar Metro Station.</string>
+
+    <string name="ChhatarpurtempleAdditional" translatable="false"><b>Timings:</b> :00 AM to 10:00 PM.
+        \n<b>Entry Fee:</b> N/A.
+        \n<b>Nearest Metro Station:</b> Chhatarpur Metro Station.</string>
+
+    <string name="SafdarjungstombAdditional" translatable="false"><b>Timings:</b> 6:00 AM to 6:00 PM.
+        \n<b>Entry Fee:</b> ndians – ₹15, Non-Indians – ₹200.
+        \n<b>Nearest Metro Station:</b> Jor Bagh Metro Station.</string>
+
+    <string name="LodhigardenAdditional" translatable="false"><b>Timings:</b> 6:00 AM to 7:30 PM on all days.
+        \n<b>Entry Fee:</b> N/A.
+        \n<b>Nearest Metro Station:</b> Jor Bagh Metro Station.</string>
+
+    <string name="RoyallehpalaceAdditional" translatable="false"><b>Best Time To Visit:</b> It is best to visit this palace in the month of August.
+        \n<b>Entry Fee:</b> INR 20 for Indians and INR 100 for foreigners.
+        \n<b>Timings:</b> 07:00 AM to 04:00 PM everyday.</string>
+
+    <string name="MollemNationalParkAdditional" translatable="false"><b>Location:</b> Sonaulim, South Goa.
+        \n<b>Timings:</b> 9:00 am to 4:00 pm; every day.</string>
+
+    <string name="NetravaliWildlifeSanctuaryAdditional" translatable="false"><b>Location:</b> Sanguem Taluk, South Goa.
+        \n<b>Entry Fee:</b> INR 20 for Indians and INR 100 for foreigners.
+        \n<b>Timings:</b> 07:00 AM to 04:00 PM everyday.</string>
+
+    <string name="GangtokAdditional" translatable="false"><b>The best time to visit:</b> The best time to visit Gangtok is between March to April and October to November.
+        \n<b>Main Highlights:</b> Gangtok is home to beautiful Buddhist monasteries like Rumtek and Enchey. It is the perfect place to experience serenity and peace. It has many beautiful sightseeing places like Nathula Pass and Tsomgo Lake.</string>
+
+    <string name="YuksomAdditional" translatable="false"><b>The best time to visit:</b> The best time to visit Yuksom is from March to June and September to October.
+        \n<b>Main Highlights:</b> It is an extremely charming historical town blessed with jaw-dropping gorgeousness. It is a perfect gateway to Mt. Kangchendzongha. Yuksom features many entrancing trails. The main highlight of the town includes historical monuments, ancient monasteries, tranquil waterfalls and serene lakes.</string>
+
+    <string name="TsomgoLakeAdditional" translatable="false"><b>Main Highlights:</b> During the winter season, travellers enjoy trekking along the lake coast, ice skating on the thick sheet of ice and yak ride on the frozen lake. During the summer and autumn season, the sight of Primula flowers and other alpine vegetation growing near the lake is a key attraction. Bird watchers flock here during October to catch a sight of the native birds waddling in the lake’s water.</string>
+
+    <string name="NathulaPassAdditional" translatable="false"><b>Main Highlights:</b> Nathula Pass offers splendid views of Chumbi valley of Tibet along with snow-laden mountains. Driving in the hills is always fun. In fact, sometimes the drive is more enjoyable than the final destination. Same is the case with Nathula Pass. It is an experience to drive on the roads surrounded by snow on both sides while passing through picturesque beauty.</string>
+
+    <string name="LachungAdditional" translatable="false"><b>Main Highlights:</b> Lachung is an unexplored but stunning Himalayan village in Sikkim.It is popular for its tall dark mountains, meandering glacial rivers, gushing waterfalls and striking fruit orchards.</string>
+
+    <string name="RavanglaAdditional" translatable="false"><b>Main Highlights:</b> Ravangla is famous for its temples, monasteries, picturesque tea gardens, exotic flora and fauna, sightseeing spots, ethnic culture, snowy mountains, gushing waterfalls and adventure sports. One of Sikkim’s most beautiful sights is Ravangla’s gigantic golden Buddha.</string>
+
+    <string name="PellingAdditional" translatable="false"><b>Main Highlights:</b> There are many amazing trekking trails that start from Pelling. The main highlight of the place includes a view of the Kanchenjunga Mountains, many gorgeous waterfalls, bridges, ancient monasteries and so on. The must-visit places in Pelling include Pemayangtse Monastery, Khecheopalri Lake, Rabdentse Ruins, Sanga Choeling Monastery and Kanchenjunga Falls.</string>
+
+
+    <string name="RumtekMonasteryAdditional" translatable="false"><b>Rumtek Monastery Tips:</b> The monastery remains open from 9 am to 6 pm, so plan your visit accordingly. Wear comfortable shoes as it is a long and steep walk from the taxi drop off location. Cameras are prohibited inside the monastery. If you want to catch a glimpse of monks doing morning prayers, plan to reach early.
+        \n<b>Main Highlights:</b> Golden Stupa at the Monastery, mystical ancient relics and down the hill river.</string>
+
+
+    <string name="NamchiAdditional" translatable="false"><b>Namchi Tips:</b> The best time to visit Namchi is from March to October. If you are travelling during monsoon season, beware of muddy and slippery roads and landslides.
+        \n<b>Main Highlights:</b> Namchi is known for its breath-taking scenic beauty and serenity. Every year in the month of October, Namchi hosts the popular Namchi Mahotsav, a tourism, culture and food festival. In addition, it also hosts a flower festival displaying the beautiful blooms.</string>
+
+    <string name="JawaharlalNehruBotanicalGardenAdditional" translatable="false"><b>The best time to visit:</b> The best time to visit the garden is from March to May when the garden is bursting with the vibrant colour of blooming flowers and October to Mid-December to catch a mesmerising view of surrounding valleys and snow-capped mountains. The garden is open on all days of the week from 8 am to 6.30 pm.
+        \n<b>Entry Fee:</b> Rs. 10 per person for adults and Rs. 5 per person for children.
+        \n<b>Main Highlights:</b> It houses numerous species of orchids and over 50 different species of tree, including many oaks.From the hilltop, one can get an unparalleled view of the beautiful city of Gangtok with towering Himalayan Mountains in the backdrop. Kids can have a gala time enjoying the merry-go-round, swings and see-saws installed at the park.</string>
+
+    <string name="ZulukAdditional" translatable="false"><b>Zuluk Tips:</b> The best time to visit Zuluk is between the months of August and September to experience a flowery summer or between the months of January and April to experience the freezing snow.
+        \n<b>Main Highlights:</b> At 11,200 feet, Thambi View Point near Zuluk offers a panoramic view of Mount Kanchenjungha. Another major highlight of Zuluk is its serene lakes. One of which is Kupup Lake aka Elephant Lake. It is also considered as one of the sacred lakes of Sikkim.</string>
+
+    <string name="NamgyalInstituteTibetologyAdditional" translatable="false"><b>Opens:</b> 10 am to 4 pm, from Monday to Saturday.
+        \n<b>Main Highlights:</b> One of the striking features of the institute is its Sikkimese architecture. The institute is surrounded by verdant forests of oak and birch.</string>
+
+    <string name="YumthangValleyAdditional" translatable="false"><b>The best time to visit:</b> The best time to visit the Yumthang Valley is between April end and mid-June to witness the flowering season.
+        \n<b>Main Highlights:</b> It is a nature sanctuary with free-flowing rivers, rolling meadows, yaks and hot springs.</string>
+
+
+    <string name="GurudongmarAdditional" translatable="false"><b>The best time to visit:</b> The best time to plan to visit is during October, November, April end and early May.
+        \n<b>Tips:</b> Since the lake is situated at a height of 17,800 feet, the oxygen level is very low which can cause severe breathing and other health issues. Therefore, it is advisable to consult a doctor before you visit the place and carry sufficient medicines as prescribed by the doctor.
+        \n<b>Main Highlights:</b> April to May is the flowering season and during this time the places get a surreal view.Do not miss the spectacular view of Gurudongmar Valley.</string>
+
+    <string name="SrinagarAdditional" translatable="false"><b>Things To Do In Srinagar:</b> Stay in the boat house, Visit the Mughal gardens, Take the shikara ride.
+        \n<b>Entry How To Reach: </b>By Air: Srinagar Domestic Airport is well-connected to all the major cities in India and you can easily board a flight and read Srinagar.
+By Bus: Board a government or private bus to Srinagar.
+By Train: Jammu is the nearest railway station.
+        \n<b>Places To Visit:</b> Dal Lake, Mughal Gardens, Nishat Bagh.</string>
+
+    <string name="GulmaragAdditional" translatable="false"><b>Things To Do In Srinagar:</b> Trekking, Camping and nature walks.
+        \n<b>Entry How To Reach: </b>By Air: You can board a flight till Srinagar Airport and then hire a cab till Gulmarg and reach in 3 hours.
+By Bus: Take a bus till Srinagar and then you can take a connecting bus till Gulmarg.
+By Train: Jammu is the nearest railway station.
+        \n<b>Best Time To Visit: </b> June to October, and for snow December and January would be the best.</string>
+
+    <string name="SonamargAdditional" translatable="false"><b>Things To Do In Srinagar:</b> Mountain Biking, trekking, Skiing if you visit in winters and Gondola rides for a panoramic view of the valley.
+        \n<b>Entry How To Reach: </b>By Air: Srinagar airport is located at a distance of 70 km from Sonmarg and you can taxi from the airport and reach easily.
+By Bus: Take a bus till Srinagar and then you can take a connecting bus till Sonamarg.
+By Train: Jammu is the nearest railway station.
+        \n<b>Best Time To Visit: </b> June through October, December and January for snow.</string>
+
+    <string name="KathuaAdditional" translatable="false"><b>Things To Do In Srinagar:</b> Jasrota fort is a must visit for history lovers. Picnicking in Ujh Barrage.
+        \n<b>Entry How To Reach: </b>By Air: Take a flight till Jammu Airport and then hire a cab.
+By Bus: Take a bus till Kathua.
+By Train: Take a train till Kathua Railway Station.
+        \n<b>Best Time To Visit: </b> Summer is the best time to visit Kathua. </string>
+
+    <string name="PahalgamAdditional" translatable="false"><b>Things To Do In Srinagar:</b>  Visit to Betab and Aru Valleys, Horseback riding, canoeing. 
+        \n<b>Entry How To Reach: </b>By Air: Take a flight till Srinagar Airport and then hire a cab till Pahalgam. 
+By Bus: Take a bus till Srinagar and then you can take a connecting bus till Pahalgam. 
+By Train: Jammu is the nearest railway station.
+        \n<b>Best Time To Visit: </b>June to October, December and January for snow. </string>
+
+    <string name="JammuCityAdditional" translatable="false"><b>Things To Do In Srinagar:</b>  Temple visit, sightseeing and trekking.
+        \n<b>Places To Visit: </b>Vaishno Devi Temple, Raghunath Temple, Bahu Fort.
+        \n<b>Entry How To Reach: </b>By Air: Take a flight till Jammu airport.
+By Bus: Take a bus till Jammu as it is well-connected with all cities by road.
+By Train: Take a traing till Jammu Tawi.
+        \n<b>Best Time To Visit: </b>Anytime is the best time to visit.</string>
+
+    <string name="KishtwarAdditional" translatable="false"><b>Things To Do In Srinagar:</b>Trekking, camping, wildlife safari and pilgrimage.
+        \n<b>Entry How To Reach: </b>By Air: Take a flight till Srinagar airport and then hire a cab till Kishtwar.
+By Bus: Take a bus till Kishtwar as it is well-connected with all cities by road.
+By Train: Udhampur is the nearest railway station.
+        \n<b>Best Time To Visit: </b>Summer.</string>
+
+    <string name="DodaAdditional" translatable="false"><b>Things To Do In Srinagar:</b>Trekking, mountaineering, rock climbing and temple visit.
+        \n<b>Entry How To Reach: </b>By Air: Take a flight till Srinagar airport and then hire a cab till Doda. By Train: Udhampur is the nearest railway station.
+        \n<b>Best Time To Visit: </b>Summer.</string>
+
+    <string name="PoonchAdditional" translatable="false"><b>Things To Do In Srinagar:</b>Temple visit, trekking and sightseeing.
+        \n<b>Entry How To Reach: </b>By Air: Take a flight till Srinagar airport and then hire a cab till Poonch. By Bus: Take a bus from Srinagar to Poonch. By Train: Jammu is the nearest railway station.
+        \n<b>Best Time To Visit: </b>Summer.</string>
+
+    <string name="NishatGardenAdditional" translatable="false"><b>Things To Do In Srinagar:</b>Walk in nature, watching the flowers.
+        \n<b>Best Time To Visit: </b>October to December.</string>
+
+    <string name="YusmargAdditional" translatable="false"><b>Things To Do In Srinagar:</b>Trekking, pony-riding.
+        \n<b>Entry How To Reach: </b>By Air: Take a flight till Srinagar airport and then hire a cab till Yusmarg.
+By Bus: Take a bus from Srinagar to Yusmarg.
+By Train: Take a train till Jammu railway station and then take a cab till Yusmarg.
+        \n<b>Best Time To Visit: </b>October to December.</string>
+
+    <string name="VaishnoDeviAdditional" translatable="false"><b>Things To Do In Srinagar:</b> Trekking, shopping, and trying local food.
+        \n<b>Entry How To Reach: </b>The easiest way to reach Vaishno Devi is by taking a train till Katra railway station.
+        \n<b>Best Time To Visit: </b>March – October.</string>
+
+    <string name="PatnitopAdditional" translatable="false"><b>Things To Do In Srinagar:</b>Trekking, paragliding, and skiing.
+        \n<b>Entry How To Reach: </b>By Air: Take a flight till Srinagar or Jammu airport and then hire a cab till Patnitop.
+By Train: Take a train till Jammu or Udhampur railway station and then take a cab till Patnitop.
+        \n<b>Best Time To Visit: </b>May – June, September – October.</string>
+
+    <string name="AmarnathAdditional" translatable="false"><b>Things To Do In Srinagar:</b>Trek.
+        \n<b>Entry How To Reach: </b>Take a train till Jammu railway station and then a hire a cab till Amarnath.
+        \n<b>Best Time To Visit: </b>May – September.</string>
+
+    <string name="DachigamNationalParkAdditional" translatable="false"><b>Things To Do In Srinagar:</b>Wildlife tour.
+        \n<b>Best Time To Visit: </b>May-June and September-October is the Best Time To Visit the park.</string>
+
+    <string name="KhilanmargAdditional" translatable="false"><b>Things To Do In Srinagar:</b>Skiing in winter, hiking, nature walk.
+        \n<b>Best Time To Visit: </b> Spring and winter season.</string>
+
+    <string name="BaltalAdditional" translatable="false"><b>Things To Do In Srinagar:</b>Nature sightseeing, photography.
+        \n<b>Best Time To Visit: </b>May-September.</string>
+
+    <string name="ShalimarGardenAdditional" translatable="false"><b>Things To Do In Srinagar:</b>Birdwatching, picnic.
+        \n<b>Best Time To Visit: </b> October to December.</string>
+
+    <string name="AlleppeyAdditional" translatable="false"><b>Tourist Attractions:</b>Vembanad Lake , Alleppey Beach, Marari Beach, Krishnapuram Palace, Pathiramanal, Kuttanad Backwaters, Arthunkal Church, Ambalapuzha Temple, Mannarshala Temple, Karumadikuttan Statue, St. Mary Rorane Church.
+        \n<b>Nearest Railway Station:</b>Alleppey Railway Station.
+        \n<b>Weather:</b>Summer (April – June), Winter(October – Mid March), Monsoon (July – September).
+        \n<b>Best Time To Visit: </b>March – October.</string>
+
+    <string name="WayanadAdditional" translatable="false"><b>Tourist Attractions:</b>Wayanad Wildlife Sanctuary, Banasura Sagar Dam, Chembra Peak, Soochipara Falls, Sentinel Rock Falls, Kanthanpara Waterfalls, Kuruva Island, Pookode Lake, Lakkidi, Muthanga Wildlife Sanctuary, Pakshipathalam, Edakkal Caves, SulthanBthery, Chain Tree.
+        \n<b>Nearest Airport:</b>Calicut International Airport (98km).
+        \n<b>Nearest Railway Station:</b>Nilambur Railway Station (92km / 3 Hours).
+        \n<b>Weather:</b>Summer (March - May), Winter (December - February), Monsoon (June - September).
+        \n<b>Best Time To Visit: </b>Year-round Destination.</string>
+
+    <string name="CochinAdditional" translatable="false"><b>Tourist Attractions:</b>Fort Kochi, Vypeen Island, Vypeen Beach, Cherai Beach, Andhakaranzhi Beach, Marine Drive, Bolghatty Island, Guruvayoor, Chinese Fishing Nets, St. FrnacisChirch, Basilica of Santa Cruz, Thrikkara Temple, Kanjiramattam Masjid, Shri Guru Singh Sabha Gurudwara, Jewish Synagogue, Cochin Cultural Centre, Malayattoor, Mattancherry, Lulu Mall (Largest Mall in India), Kodannad Elephant Training Centre, Hill Palace Museum, Edappally Museum, Princess Street, Kerala Kathakali Centre, Vasco Da Gama Square.
+        \n<b>Nearest Airport:</b>Kochi International Airport.
+        \n<b>Nearest Railway Station:</b>Kochi Railway Junction.
+        \n<b>Weather:</b>Summer (March - June), Winter (July - September), Monsoon (October - February).
+        \n<b>Best Time To Visit: </b>July (Beginning of Monsoon) to April (Early Summer).</string>
+
+    <string name="MunnarAdditional" translatable="false"><b>Tourist Attractions:</b>Eravikulam National Park, Mattupetty Dam, Pothamedu View Point, Anamudi, Blossom Park, Devikulam, Pallivasal, TATA Tea Museum, Vattavada, Attukal Waterfalls, Cheeyapara Waterfalls, Kundala Lake, Nyayamakad, Meesapulimala, Kolukkumalai, Lock-Hart Gap, Chithirapuram, Rajamala, Top Station, Marayoor Dolmens, Indo Swiss Diary Farm, Lite of Pi Church.
+        \n<b>Nearest Airport:</b>Cochin International Airport (125km).
+        \n<b>Nearest Railway Station:</b>Ernakulam Junction (128km / 4 Hours).
+        \n<b>Weather:</b>Summer (March - May), Winter (December - February), Monsoon (June - September).
+        \n<b>Best Time To Visit: </b>Year-round Destination.</string>
+
+    <string name="KumarakomAdditional" translatable="false"><b>Tourist Attractions:</b>Eravikulam National Park, Mattupetty Dam, Pothamedu View Point, Anamudi, Blossom Park, Devikulam, Pallivasal, TATA Tea Museum, Vattavada, Attukal Waterfalls, Cheeyapara Waterfalls, Kundala Lake, Nyayamakad, Meesapulimala, Kolukkumalai, Lock-Hart Gap, Chithirapuram, Rajamala, Top Station, Marayoor Dolmens, Indo Swiss Diary Farm, Lite of Pi Church.
+        \n<b>Nearest Airport:</b>Cochin International Airport (125km).
+        \n<b>Nearest Railway Station:</b>Ernakulam Junction (128km / 4 Hours).
+        \n<b>Weather:</b>Summer (March - May), Winter (December - February), Monsoon (June - September).
+        \n<b>Best Time To Visit: </b>September (Monsoon End) to March (Winter End).</string>
+
+    <string name="KovalamAdditional" translatable="false"><b>Tourist Attractions:</b>Vellayani Lake, Lighthouse Beach, Chowara Beach, Kovalam Beach, Hawah Beach, Samudra Beach, Shangumkham Beach, Neyyar Dam, Aruvikkara Dam, Edakallu, Karamana River, Halcyon Castle, Kovalam Art Gallery, Valiyathura Pier, Veli Tourist Village, Artificial Coral Reef, Vizhinjam Rock Cut Temple, Vizhinjam Marine Aquarium, Naiper Art Museum, Shri Padmanabhaswamy Temple.
+        \n<b>Nearest Airport:</b>Thiruvananthapuram International Airport (16km).
+        \n<b>Nearest Railway Station:</b>Trivandrum Central Railway Station (13km).
+        \n<b>Weather:</b>Summer (March - June), Winter (November - February), Monsoon (July - September).
+        \n<b>Best Time To Visit: </b>September (Monsoon End) to March (Beginning of Summer).</string>
+
+    <string name="KollamAdditional" translatable="false"><b>Tourist Attractions:</b>Dutch Quilon, Thirumullavaram Beach, Kollam Beach, Ashtamudi Lake, Palaruvi Waterfalls, Paravoor, Punalur, Thenmala, Mayyanad, Deer Park, Thevalli Palace, British Residency, Chavara, Jatayupara, Thangasseri, Rameshwara Temple, Sasthamkotta, Ochira, KottarakkaraKathakali Museum, Picnic Village, Munore Island, Neendakara Port.
+        \n<b>Nearest Airport:</b>Thiruvananthapuram International Airport (51km), Kochi International Airport (129km).
+        \n<b>Nearest Railway Station:</b>Kollam Railway Junction.
+        \n<b>Weather:</b>Summer (March - May), Winter (October - February), Monsoon (June - September).
+        \n<b>Best Time To Visit: </b>September to March.</string>
+
+    <string name="VagamonAdditional" translatable="false"><b>Tourist Attractions:</b>Murinjupuzha Water Falls, Ulipooni Wildlife Sanctuary, ElaveezhaPoonchira, Idukki Arch Dam, Pine Hills, Parumthumpara Point, Kurisumala, Peermade, Mangala Devi Temple, Pattumalai Church, Kuttikanam Palace.
+        \n<b>Nearest Airport:</b>Cochin International Airport (75km).
+        \n<b>Nearest Railway Station:</b>Kottayam Railway Station (64km / 2 Hours).
+        \n<b>Weather:</b>Summer (March - June), Winter (October - March), Monsoon (July - September).
+        \n<b>Best Time To Visit: </b>Year-round Destination.</string>
+
+    <string name="KozhikodeAdditional" translatable="false"><b>Tourist Attractions:</b>Kappad Beach, Kozhikode Beach, Beypore Beach, Kozhippara Falls, Thusharagiri Falls, Thikkoti Lighthouse, Kadalundi, Tali Temple, Lion s Park, Kalipoyika, Mananchira Square, Krishna Menon Museum, Peruvannamuzhi Dam.
+        \n<b>Nearest Airport:</b>Calicut International Airport (28km).
+        \n<b>Nearest Railway Station:</b>Kozhikode Railway Station.
+        \n<b>Weather:</b>Summer (April - May), Winter (October - March), Monsoon (July - September).
+        \n<b>Best Time To Visit: </b>July to April.</string>
+
+    <string name="BekalAdditional" translatable="false"><b>Tourist Attractions:</b>Bekal Fort, Pallikere Beach, Bekal Fort Beach, Valiyaparamba Backwaters, Kappil Beach, Hosdurg Beach, Nileswaram Cultural Centre, Nityanandarshan Caves, TulurVanam, Bekal Hole Aqua Park, Mallikarjuna Temple, Malik Dinar Mosque.
+        \n<b>Nearest Airport:</b>Mangalore Airport (50km), Trivandrum International Airport (71km).
+        \n<b>Nearest Railway Station:</b>Kasaragod Railway Station (12km), Kanhangad Railway Station (14km).
+        \n<b>Weather:</b>Summer (March - June), Winter (December - February), Monsoon (June - September).
+        \n<b>Best Time To Visit: </b>October to March.</string>
+
+    <string name="GuruvayurAdditional" translatable="false"><b>Tourist Attractions:</b>Guruvayur Temple, Guruvayur Elephant Camp, MammiyurMahadevan Temple, Palayur Church, Parthasarathy Temple, Chamundeshwary Temple, Devaswom Museum, Institute of Mural Paintings.
+        \n<b>Nearest Airport:</b>Calicut International Airport (77km).
+        \n<b>Nearest Railway Station:</b>Guruvayur Junction.
+        \n<b>Weather:</b>Summer (March - May), Winter (October - February), Monsoon (June - September).
+        \n<b>Best Time To Visit: </b>October to February (Winter).</string>
+
+    <string name="IdukkiAdditional" translatable="false"><b>Tourist Attractions:</b>Periyar National Park, Periyar Lake, Idukki Arch Dam, Munnar, Vagamon, Thekkady, Nandukani, Painavu, Gavi, Murikkady, Kulamavu Dam, Anakkara, Hill View Park, Thommankuthu Falls, Keezharkuthu Falls, Mangala Devi Temple.
+        \n<b>Nearest Airport:</b>Cochin International Airport (98km).
+        \n<b>Nearest Railway Station:</b>Theni Junction (83km).
+        \n<b>Weather:</b>Summer (March - May), Winter (November - February), Monsoon (June - September).
+        \n<b>Best Time To Visit: </b>Year-round Destination.</string>
+
+    <string name="KannurAdditional" translatable="false"><b>Tourist Attractions:</b>Muzhappilangad Drive-in Beach, Payyambalam Beach, Meenkunnu Beach, Thottada Beach, Baby Beach, Mopila Bay, Dharmadam Island, Parassinikkadavu, Arakkal Museum, Sundareswara Temple, Fort St. Angelo, Pallikunnu, Holy Trinity Cathedral.
+        \n<b>Nearest Airport:</b>Calicut International Airport (84km).
+        \n<b>Nearest Railway Station:</b>Kannur Railway Station.
+        \n<b>Weather:</b>Summer (March - May), Winter (October - February), Monsoon (June - August).
+        \n<b>Best Time To Visit: </b>October (Early Winter) to March (Early Summer).</string>
+
+    <string name="KizhunnaBeachAdditional" translatable="false"><b>Tourist Attractions:</b>Kannur, Ezhara Beach, Swimming, Sun Basking, Village Tours.
+        \n<b>Nearest Airport:</b>Calicut International Airport (108km).
+        \n<b>Nearest Railway Station:</b>Kannur Railway Station (10km).
+        \n<b>Weather:</b>Summer (March - May), Winter (December - February), Monsoon (June - September).
+        \n<b>Best Time To Visit: </b>December to February (Winter).</string>
+
+    <string name="KuttanadAdditional" translatable="false"><b>Tourist Attractions:</b>Champakulam, Chengannur, Pamba River, Meenachil River, Achankovil River, Manimala River, Punnamada Lake, Backwaters, Paddy Fields, Traditional Water Turbines.
+        \n<b>Nearest Airport:</b>Cochin International Airport (85km).
+        \n<b>Nearest Railway Station:</b>Alleppey Railway Station (22km) and Changanacherry Railway Station (28km).
+        \n<b>Weather:</b>Summer (April - June), Winter (October - Mid March), Monsoon (July - September).
+        \n<b>Best Time To Visit: </b>August to March.</string>
+
+    <string name="MarariAdditional" translatable="false"><b>Tourist Attractions:</b>Beach Activities, Thumpolly Beach, Alappuzha Beach, Cherthala, The Dutch Palace, Chinese Fishing Nets, St. Andres Church, Mararikulam Shiva Temple, Aroor, Arthunkal, Poochakkal.
+        \n<b>Nearest Airport:</b>Cochin International Airport (90km).
+        \n<b>Nearest Railway Station:</b>Mararikulam Railway Station (3km).
+        \n<b>Weather:</b>Summer (March - May), Winter (November - February), Monsoon (June - October).
+        \n<b>Best Time To Visit: </b>September (Monsoon End) to May (Summer End).</string>
+
+    <string name="MunroeIslandAdditional" translatable="false"><b>Tourist Attractions:</b>Island Hoping, Boating, Kallada River, Ashtamudi Lake, Wonderla Amusement Park, Kerala Kathakali Centre, Jew Town, Mattancherry Palace, Paradesi Synagogue, Santa Cruz Basilica.
+        \n<b>Nearest Airport:</b>Trivandrum International Airport (97km).
+        \n<b>Nearest Railway Station:</b>Kollam Railway Station (25km).
+        \n<b>Weather:</b>Summer (March - May), Winter (November- February), Monsoon (June - September).
+        \n<b>Best Time To Visit: </b>October to May.</string>
+
+    <string name="NelliampathyAdditional" translatable="false"><b>Tourist Attractions:</b>Trekking, Boating, Nelliyampathy Hills, Parambikulam Wildlife Sanctuary, Nenmara, Palagapandi Estate, Seetharkundu Viewpoint, Padagiri, Raja s Cliff, Pothundi Reservoir, Malampuzha Gardens, Nelliyampathy Gardens.
+        \n<b>Nearest Airport:</b>Trivandrum International Airport (97km).
+        \n<b>Nearest Railway Station:</b>Palakkad Railway Station.
+        \n<b>Weather:</b>Summer (March - May), Winter (November - February), Monsoon (June - September).
+        \n<b>Best Time To Visit: </b>October (Pre-Winter) to March (Early Summer).</string>
+
+    <string name="PalakkadAdditional" translatable="false"><b>Tourist Attractions:</b>Palakkad Fort, Silent Valley National Park, Parambikulam Wild Life Sanctuary, Mayiladumpara Peacock Sanctuary, Malampuzha Dam and Gardens, Attappadi, Kava View Point, Rock Garden, Siruvani Reservoir, Kanjirapuzha Reservoir, Dhoni Forest (Trekking), Kalpathy Heritage Village and Temple Complex, Nelliyampathy Hills, Pothundi Dam and Reservoir, Mangalam Dam, Tipu s Fort, ThiruvalathurRanduMoorthy Temple, Jain Temple, Vadakkanthara Temple, Manapullikaavu, KalpathyAgraharam and Vishwanathaswamy Temple, KumarapuramTemple, EmoorBhagavathyTemple, Thiruvalathoor Shiva Temple.
+        \n<b>Nearest Airport:</b>Peelamedu Airport (Coimbatore, Tamil Nadu) (43km), Kochi International Airport (96km).
+        \n<b>Nearest Railway Station:</b>Palakkad Junction (Broad Gauge Line), Palakkad Town Railway Station (Narrow Gauge Line).
+        \n<b>Weather:</b>Summer (February - May), Winter (November - March), Monsoon (June - October).
+        \n<b>Best Time To Visit: </b>July (Mid-Monsoon) to March (Winter End).</string>
+
+    <string name="PonmudiAdditional" translatable="false"><b>Nearest Airport:</b>Trivandrum International Airport (67km).
+        \n<b>Nearest Railway Station:</b>Trivandrum Central Railway Station (61km).
+        \n<b>Weather:</b>Summer (March - May), Winter (December - March), Monsoon (June - September).
+        \n<b>Best Time To Visit: </b>November (Post Monsoon) to May (Summer End).</string>
+
+    <string name="PoovarAdditional" translatable="false"><b>Tourist Attractions:</b>Poovar Beach, Thiruparappu Falls, Fishing Village, Kalipoika, Kozhipara, Thikkoti Light House.
+        \n<b>Nearest Airport:</b>Trivandrum International Airport (38km).
+        \n<b>Weather:</b>Summer (March - May), Winter (December - March), Monsoon (June - September).
+        \n<b>Best Time To Visit: </b>August (Mid-Monsoon) to March (Early Summer).</string>
+
+    <string name="MysorePalaceAdditional" translatable="false"><b>Location:</b>Sayyaji Rao Road, Agrahara, Chamrajpura,Mysuru, Karnataka 570001, India.
+        \n<b>Timings:</b>10:00 AM to 5:30 PM.</string>
+
+    <string name="SriChamarajendraZoologicalGardensAdditional" translatable="false"><b>Location:</b>Zoo, Main Rd, Indira Nagar, Mysuru, Karnataka 570010.
+        \n<b>Timings:</b> 8:30am–5:30pm.</string>
+
+    <string name="SriChamundeshwariTempleAdditional" translatable="false"><b>Location:</b>Sri Chamundeshwari Temple, Chamundi Hill, Mysuru - 570010 Karnataka, India.
+        \n<b>Timings:</b> 7:30 AM to 2:00 PM, 3:30 PM to 6:00 PM, 7:30 PM to 9:00 PM .</string>
+
+    <string name="GRSFantasyParkAdditional" translatable="false"><b>Location:</b>KRS Rd, Metagalli, Mysuru, Karnataka 570016.
+        \n<b>Timings:</b> 08.30 am to 05.30 pm.Closed on Tuesdays.</string>
+
+    <string name="StPhilomenaCathedralAdditional" translatable="false"><b>Location:</b>Lourdes Nagar, Ashoka Road, Lashkar Mohalla, Mysuru, Karnataka 570001.
+        \n<b>Timings:</b>5:00 AM to 6:00 PM.</string>
+
+    <string name="JaganmohanPalaceArtGalleryandAuditoriumAdditional" translatable="false"><b>Location:</b>Deshika Rd, opp. City Bus Stand, Devaraja Mohalla, Chamrajpura, Mysuru, Karnataka 570024, India.
+        \n<b>Timings:</b> 8:30 AM to 5:30 PM.</string>
+
+    <string name="LalithaMahalAdditional" translatable="false"><b>Location:</b>Chamundipuram, Mysore, India.
+        \n<b>Timings:</b>8:30 AM to 6:00 PM.</string>
+
+    <string name="RegionalMuseumofNaturalHistoryAdditional" translatable="false"><b>Location:</b>T.N.Pura Road, Opposite Nandini Milk Dairy, Siddhartha Nagar, Mysuru, Karnataka 570011, India.
+        \n<b>Timings:</b> 10:00 AM to 6:00 PM.closed on Tuesday.</string>
+
+    <string name="KukkarahaliLakeAdditional" translatable="false"><b>Location:</b>Kukkarahalli lake, Saraswathipuram, Mysore, Karnataka, 570011, India.
+        \n<b>Timings:</b> 6:00 AM to 6:00 PM.</string>
+
+    <string name="LingambudhiLakeAdditional" translatable="false"><b>Location:</b>Srirampura, 8 Km from Mysore, Mysore, Karnataka, 570008, India.
+        \n<b>Timings:</b> 6:00 AM to 6:00 PM.</string>
+
+    <string name="KaranjiLakeAdditional" translatable="false"><b>Location:</b>Chamundipuram, Mysore, India.
+        \n<b>Timings:</b> 08.30 am to 05.30 pm.Closed on Tuesdays.</string>
+
+    <string name="TajMahalAdditional" translatable="false"><b>Timings:</b> -6:00 am to 6:30 pm every day except Fridays. -Nighttime views 8:30 pm to 12:30 am (5 days a month- full moon night, two days before the full moon and two days after the full moon night).
+        \n<b>Entry Fee:</b> -Rs 50 per person for Indians, -Rs 1300 per person for Foreigners.
+        \n<b>Location:</b> Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001.</string>
+
+    <string name="AgraFortAdditional" translatable="false"><b>Timings:</b> 6 am to 6 pm every day.
+        \n<b>Entry Fee:</b> -Rs 40 per person for Indians, -Rs 550 per person for foreigners.
+        \n<b>Location:</b> Agra Fort, Rakabganj, Agra, Uttar Pradesh 282003.</string>
+
+    <string name="FatehpurSikriAdditional" translatable="false"><b>Timings:</b> 6:00 am to 6:00 pm every day except Fridays.
+        \n<b>Entry Fee:</b> -Rs 10 per person for Indians, -Rs 250 per person for Foreigners.
+      \n<b>Location:</b> Fatehpur Sikri is a town in the district of Agra in the state of Uttar Pradesh in north India. It lies 37 km away southwest of Agra city.</string>
+
+    <string name="ItmadUdDaulahsTombAdditional" translatable="false"><b>Timings:</b> 6 am to 6 pm.
+        \n<b>Entry Fee:</b> -Rs 20 per person for Indians, -Rs 210 per person for Foreigners.
+        \n<b>Location:</b>Moti Bagh, Agra, Uttar Pradesh 282006.</string>
+
+    <string name="AkbarsTombAdditional" translatable="false"><b>Timings:</b> 10 am to 6 pm every day except Fridays.
+        \n<b>Entry Fee:</b> -Rs 15 per person for Indians. -Rs 110 per person for Foreigners.
+        \n<b>Location:</b>Tomb of Akbar The Great Area, Sikandra, Agra, Uttar Pradesh 282007.</string>
+
+    <string name="MotiMasjidAdditional" translatable="false"><b>Timings:</b> 6 am to 6 pm.
+        \n<b>Entry Fee:</b> -Rs 20 per person for Indians, -Rs 750 per person for Foreigners.
+        \n<b>Location:</b> State Highway 62 Agra Fort, Rakabganj, Agra, Uttar Pradesh 282003.</string>
+
+    <string name="AnguriBaghAdditional" translatable="false"><b>Timings:</b> 6:00 AM TO 7:30 PM.
+        \n<b>Entry Fee:</b> INR 40.
+        \n<b>Location:</b> Agra Fort, Rakabganj, Agra, Uttar Pradesh.</string>
+
+    <string name="GurudwaraGuruKaTaalAdditional" translatable="false"><b>Timings:</b> 24 hours.
+        \n<b>Entry Fee:</b> N/A.
+        \n<b>Location:</b> Chennai - Delhi Hwy, Maharishi Puram Colony, Agra, Uttar Pradesh 282007.</string>
+
+    <string name="TheoberoiAdditional" translatable="false">India Gate is 3 km while Rashtrapati Bhavan is 5 km from the property. Pragati Maidan is 4 km away.
+        \nCouples particularly like the location they rated it 9.5 for a two-person trip.
+        \n<b>Great Food:</b> Meals here are highly recommended. Continental, Full English/Irish, Vegetarian, Gluten-free, Asian, American, BuffetFree private parking available at the hotel.Loyal customers.
+        \n<b>ReserveMost popular facilities:</b> 1 swimming pool Free WiFi Airport shuttle exceptional fitness centre Free parking Bar.</string>
+
+    <string name="TheleelapalaceAdditional" translatable="false">The Leela Palace New Delhi is less than 10 minutes drive from the India Gate. Indira Gandhi International Airport is 15 km while the Domestic airport is 13 km.
+        \nCouples particularly like the location — they rated it 9.2 for a two-person trip.
+        \n<b>Great Food:</b> Continental, Italian, Vegetarian, Vegan, Gluten-free, Asian, American, Buffet.
+        \n<b>ATM and Currency Exchange:</b> Need cash? There\'s an ATM machine and a currency exchange service at this property.
+        \n<b>ReserveMost popular facilities:</b> 1 swimming pool Free WiFi very good fitness centre Free parking Spa and wellness centre Bar </string>
+
+    <string name="ThelodhiAdditional" translatable="false">The property is 3 km from India Gate and Pragati Maidan. Indira Gandhi International Airport is 20 km away and New Delhi Railway Station is 2.5 km away.
+        \nCouples particularly like the location they rated it 9.5 for a two-person trip.
+        \n<b>Great Food:</b> Continental, Full English/Irish, Vegetarian, Vegan, Gluten-free, Asian, American.
+        \n<b>Currency exchange:</b> Need local currency? This property offers currency exchange on site.
+        \n<b>ReserveMost popular facilities:</b> 1 swimming pool Free WiFi Airport shuttle Family rooms fabulous fitness centre Tea/coffee maker in all rooms Bar.</string>
+
+    <string name="ThetajmahalAdditional" translatable="false">Taj Mahal Hotel New Delhi is within 2 km from the well-known Rashtrapati Bhavan. Offering free parking, it is 18 km from the Delhi International Airport and 5 km New Delhi Railway Station. The Central Business District, the shopping area of Connaught Place and the business district of Gurgaon are within a 25-minute drive.
+        \nCouples particularly like the location — they rated it 9.3 for a two-person trip.
+        \n<b>ATM and Currency Exchange:</b> Need cash? There\'s an ATM machine and a currency exchange service at this property.
+        \n<b>ReserveMost popular facilities:</b> 1 swimming pool Free WiFi Airport shuttle fabulous fitness centre Free parking Bar.</string>
+
+    <string name="ShangarilaserosAdditional" translatable="false">Guests can relax at the Chi Spa and exercise in the state-of-the-art Fitness Centre. Indira Gandhi International Airport is 14.3 km away. Connaught place is 2 km from the accommodation.
+        \nCouples particularly like the location — they rated it 9.2 for a two-person trip.
+        \n<b>Great Food:</b> Continental, Vegetarian, Asian, American, Buffet.
+        \n<b>ReserveMost popular facilities:</b>  swimming pool Free WiFi Airport shuttle Fitness centre Free parking Tea/coffee maker in all rooms Bar.</string>
+
+    <string name="HyattregencyAdditional" translatable="false">The Bhikaiji metro station is barely 100 m from the property, while India Gate is 6 km from the property. The New Delhi Railway Station is 13.3 km and Hazrat Nizamuddin Railway Station is 9.8 km. Connaught place located at a distance of 9.8 km from the hotel. Qutub Minar is 7.6 km, while Rashtrapati Bhavan is 7.2 km from the property.
+        \n<b>The nearest airport:</b> Continental, Vegetarian, Vegan, Gluten-free, American, Buffet.</string>
+
+    <string name="ZostellehAdditional" translatable="false">Soma Gompa is 701 m from the accommodations, while Namgyal Tsemo Gompa is 1.2 mi away.
+        \nCouples particularly like the location — they rated it 8.5 for a two-person trip.
+        \n<b>Great Food:</b> Continental, Vegetarian, Vegan, Gluten-free, American, Buffet.
+        \n<b>ReserveMost popular facilities:</b> 2 swimming pools Free WiFi Family rooms very good fitness centre Free parking.</string>
+
+    <string name="ThefortuneresortAdditional" translatable="false">Main Bazaar is 6.2 mi from THE FORTUNE RESORTS, while War Museum is 2.2 mi away.
+        \n<b>The nearest airport:</b> Kushok Bakula Rimpochee, 1.9 mi from the accommodations, and the property offers a paid airport shuttle service.</string>
+
+    <string name="HotelgalaxyladakhAdditional" translatable="false">The Grand Dragon Ladakh is a 10-minute walk from Leh Palace and Leh Market. It is a 5-minute walk from the Main Bus Stand and a 10-minute drive from Shanti Stupa. SNM General Hospital is 0.6 mi away, while Kushok Bakula Leh Airport is 1.9 mi from the hotel.
+        \nCouples particularly like the location — they rated it 8.5 for a two-person trip.
+        \n<b>The nearest airport:</b> Continental, Vegetarian, Vegan, Gluten-free, American, Buffet.
+        \n<b>ReserveMost popular facilities:</b> 2 swimming pools Free WiFi Family rooms very good fitness centre Free parking.</string>
+
+    <string name="ThegranddragonladakhAdditional" translatable="false">Soma Gompa is 701 m from the accommodations, while Namgyal Tsemo Gompa is 1.2 mi away.
+          \nCouples particularly like the location — they rated it 8.5 for a two-person trip.
+        \n<b></b> A 24-hour front desk, car rentals and meeting room facilities are available. Complimentary WiFi and laundry services are available.</string>
+
+
+    <string name="YarabtsoAdditional" translatable="false">Shanti Stupa is 2.7 mi from Yarab Tso, while Soma Gompa is 1.4 mi away.
+        \n<b>The nearest airport:</b> Kushok Bakula Rimpochee Airport, 1.9 mi from the hotel.</string>
+
+    <string name="FairfieldbyMarriottGoaAdditional" translatable="false">The Anjuna Beach (3 kms); Baga Beach (3.7 kms); Calangute Beach (4.7 kms) and Vagator Beach (5 kms).
+          \nThe Maposa Bus Stand is 8 km and Goa International Airport is 40 km away from this hotel and airport pick-up and drop is available at additional charges. What people love the most about this property is its great location and classy ambience.</string>
+
+    <string name="GoaMarriottResortSpaAdditional" translatable="false">The resort is 5.5 km from Panaji Bus Stand, 27 km from Thivim Railway Station and 30 km from Goa International Airport. Key attractions near the resort include Miramar Beach (850 metres), Bridge Panaji (2 km), River Cruise (5.5 km), Mandovi River (11 km), Reis Magos Fort (12 km) and Aguada Fort (19.5 km).For Business travellers, the capital city of Panaji, where the Portugal India Business hub was established, is at a distance of 4 km.
+          \nWhat makes this property a first choice among travellers is its exceptional setting and excellent services.</string>
+
+
+    <!--
+    This string is used for square devices and overridden by hello_world i
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>
