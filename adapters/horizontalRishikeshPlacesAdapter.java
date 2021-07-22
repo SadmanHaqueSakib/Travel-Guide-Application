@@ -1,0 +1,144 @@
+package com.example.travelmania.adapters;
+
+import android.content.Context;
+import android.content.Intent;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.travelmania.Akshardham;
+import com.example.travelmania.ChhatarpurTemple;
+import com.example.travelmania.Delhi;
+import com.example.travelmania.FunNFoodVillage;
+import com.example.travelmania.GurudwaraBanglaSahib;
+import com.example.travelmania.HumayunsTomb;
+import com.example.travelmania.IndiaGate;
+import com.example.travelmania.JamaMasjid;
+import com.example.travelmania.JumpinHeights;
+import com.example.travelmania.KidZania;
+import com.example.travelmania.KingdomofDreams;
+import com.example.travelmania.LaxmanJhula;
+import com.example.travelmania.LodhiGarden;
+import com.example.travelmania.LotusTemple;
+import com.example.travelmania.MehrauliArcheologicalPark;
+import com.example.travelmania.NeelkanthMahadevTemple;
+import com.example.travelmania.PuranaQila;
+import com.example.travelmania.QutubMinar;
+import com.example.travelmania.R;
+import com.example.travelmania.RamJhula;
+import com.example.travelmania.RashtrapratiBhaban;
+import com.example.travelmania.RedFort;
+import com.example.travelmania.Rishikesh;
+import com.example.travelmania.SafdarjungsTomb;
+import com.example.travelmania.Shivpuri;
+import com.example.travelmania.ShriBharatMandir;
+import com.example.travelmania.SnowWorld;
+import com.example.travelmania.TheBeatlesAshram;
+import com.example.travelmania.TriveniGhat;
+import com.example.travelmania.VashisthaCave;
+import com.example.travelmania.WestofWonderPark;
+import com.example.travelmania.WorldsofWonder;
+import com.example.travelmania.helpers.horizontalhelper;
+
+import java.util.ArrayList;
+
+public class horizontalRishikeshPlacesAdapter extends RecyclerView.Adapter<horizontalRishikeshPlacesAdapter.horizontalViewHolder>  {
+
+    ArrayList<horizontalhelper> horizontalhelpers;
+    private Context context;
+
+    public horizontalRishikeshPlacesAdapter(ArrayList<horizontalhelper> horizontalhelpers) {
+        this.horizontalhelpers = horizontalhelpers;
+    }
+
+    @NonNull
+    @Override
+    public horizontalViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.horizontalrecyclerdesign, parent, false);
+        return new horizontalViewHolder(view);
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull horizontalViewHolder holder, int position) {
+
+        horizontalhelper phonehelper = horizontalhelpers.get(position);
+        holder.image.setImageResource(phonehelper.getImage());
+        holder.title.setText(phonehelper.getTitle());
+
+    }
+
+    @Override
+    public int getItemCount() {
+        return horizontalhelpers.size();
+    }
+
+    class horizontalViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
+
+        ImageView image;
+        TextView title;
+
+        public horizontalViewHolder(@NonNull View itemView) {
+            super(itemView);
+            context=itemView.getContext();
+            image=itemView.findViewById(R.id.card_image);
+            title=itemView.findViewById(R.id.card_title);
+            itemView.setClickable(true);
+
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View v) {
+            final Intent intent;
+            switch (getAbsoluteAdapterPosition()){
+                case 0:
+                    intent =  new Intent(context, LaxmanJhula.class);
+                    break;
+
+                case 1:
+                    intent =  new Intent(context, RamJhula.class);
+                    break;
+
+                case 2:
+                    intent =  new Intent(context, ShriBharatMandir.class);
+                    break;
+
+                case 3:
+                    intent =  new Intent(context, TriveniGhat.class);
+                    break;
+
+                case 4:
+                    intent =  new Intent(context, TheBeatlesAshram.class);
+                    break;
+
+                case 5:
+                    intent =  new Intent(context, Shivpuri.class);
+                    break;
+
+                case 6:
+                    intent =  new Intent(context, NeelkanthMahadevTemple.class);
+                    break;
+
+                case 7:
+                    intent =  new Intent(context, JumpinHeights.class);
+                    break;
+
+                case 8:
+                    intent =  new Intent(context, VashisthaCave.class);
+                    break;
+
+                default:
+                    intent =  new Intent(context, Rishikesh.class);
+                    break;
+            }
+            context.startActivity(intent);
+
+
+        }
+    }
+}
