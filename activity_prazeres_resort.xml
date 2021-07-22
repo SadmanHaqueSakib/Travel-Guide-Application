@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="start"
+    tools:context=".PrazeresResort">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/scroll">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:background="@color/teal_700"
+            android:id="@+id/prazeresresortslider"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            app:auto_cycle="true"
+            app:corner_radius="5"
+            app:delay="0"
+            app:error_image="@color/teal_200"
+            app:period="2000"
+            app:placeholder="@color/teal_700"
+            android:src="@drawable/zostel_leh" />
+        <ScrollView
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_200">
+            <LinearLayout
+                android:background="@color/textviewcolor"
+                android:elevation="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imagelayout"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="40dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:text="Prazeres Resort"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/headingtextbackground"
+                    android:elevation="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="About This Hotel"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+                <LinearLayout
+                    android:background="@drawable/navheadersyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+                    <com.codesgood.views.JustifiedTextView
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:elevation="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/heading"
+                        android:id="@+id/description"
+                        android:text="Prazeres Resort is located at a distance of 1 km from Candolim Beach and 11 km from Mapusa Bus Stand. This resort in Goa offers free breakfast to its guests. It comprises of 60 spacious and well-equipped rooms with well-equipped amenities like wardrobe, balcony, tea/coffee maker and bottled drinking water. It has an attached bathroom with hot and cold running water facility."/>
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:elevation="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/heading"
+                        android:id="@+id/description2"
+                        android:text="This resort in Goa offers front desk and power backup generator facility along with services like laundry, medical assistance and round the clock room service. This property has a swimming pool, coffee shop, bar, garden and banquet hall.Prazeres Resort has an open-air restaurant within the premises. This property is 24 km from Thivim Railway Station and 34 km from Goa International Airport. Some of the tourist attractions are Aguada Fort (2 km) and Calangute Beach (5 km)."/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/headingtextbackground"
+                    android:elevation="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Direction"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+                <fragment
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:id="@+id/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"/>
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

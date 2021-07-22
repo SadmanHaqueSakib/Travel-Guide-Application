@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textviewcolor"
+    android:padding="8dp"
+    tools:context=".Splash">
+
+    <LinearLayout
+        android:padding="8dp"
+        android:elevation="10dp"
+        android:background="@color/teal_200"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:padding="8dp"
+            android:elevation="10dp"
+            android:background="@color/textviewcolor"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/travelmanialogo2bg"/>
+            <TextView
+                android:id="@+id/appname"
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:text="Travel  Mania"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/thevoyageculture_script" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
