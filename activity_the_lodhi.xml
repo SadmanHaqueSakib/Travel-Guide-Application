@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="start"
+    tools:context=".TheLodhi">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/scroll">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:background="@color/teal_700"
+            android:id="@+id/thelodhislider"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            app:auto_cycle="true"
+            app:corner_radius="5"
+            app:delay="0"
+            app:error_image="@color/teal_200"
+            app:period="2000"
+            app:placeholder="@color/teal_700"
+            android:src="@drawable/the_lodhi" />
+        <ScrollView
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_200">
+            <LinearLayout
+                android:background="@color/textviewcolor"
+                android:elevation="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imagelayout"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/rating"
+                    android:id="@+id/heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="40dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:text="The leela palace"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/headingtextbackground"
+                    android:elevation="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="About This Hotel"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+                <LinearLayout
+                    android:background="@drawable/navheadersyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+                    <com.codesgood.views.JustifiedTextView
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:elevation="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/heading"
+                        android:id="@+id/description"
+                        android:text="Situated just 1 km from the tomb of the famous Mughal Emperor Humayun, The Lodhi is a luxurious property which features an outdoor swimming pool, free Wi-Fi throughout the property and a 24-hour front desk.The Lodhi boasts of a salon, fitness centre, spa and massage centre, steam and sauna room, a library, a cigar lounge and a business centre on premises. Guests can avail of a tour desk, concierge services, currency exchange facilities and laundry/dry-cleaning facilities."/>
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:elevation="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/heading"
+                        android:id="@+id/description2"
+                        android:text="Each indulgent air-conditioned room features a private balcony as well as a seating area. It is equipped with a work desk, wardrobe, CD player, minibar and flat-screen TV with satellite channels. The en suite four fixture bathroom contains complimentary toiletries."/>
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:elevation="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/heading"
+                        android:id="@+id/description3"
+                        android:text="Elan Restaurant and Bar serves pan-Indian, Mediterranean and South East Asian cuisines. Room service options are available 24-hours a day.Couples particularly like the location — they rated it 8.9 for a two-person trip."/>
+
+
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/headingtextbackground"
+                    android:elevation="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Direction"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+                <fragment
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:id="@+id/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"/>
+
+                <TextView
+                    android:elevation="20dp"
+                    android:background="@drawable/headingtextbackground"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/heading1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:textColor="@color/black"
+                    android:text="Additional Information"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/navheadersyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:elevation="20dp"
+                        android:textSize="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/heading"
+                        android:id="@+id/description1"
+                        android:text="@string/ThelodhiAdditional" />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

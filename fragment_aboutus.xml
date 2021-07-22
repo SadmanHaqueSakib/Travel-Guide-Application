@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textviewcolor"
+    android:gravity="start">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:fontFamily="@font/thevoyageculture_sans"
+        android:gravity="center"
+        android:textSize="50dp"/>
+
+    <LinearLayout
+        android:layout_below="@+id/heading"
+        android:elevation="5dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:padding="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:padding="5dp"
+                android:elevation="5dp"
+                android:id="@+id/imagelayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/textviewcolor"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sadman"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/teal_200"/>
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/Sadman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/textbackground"
+                    android:elevation="20dp"
+                    android:text="Sadman Haque Sakib  "
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/thevoyageculture_sans"/>
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/edit_text_button_rounded"
+                    android:id="@+id/SadmanDis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/heading"
+                    android:layout_marginTop="25dp"
+                    android:elevation="10dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="10dp"
+                    android:text="I am in my last semister of B-Tech Computer Science Engineering. I am specialising in Android app developement.  This app is build by four of us for the capstone research project. This is an fully finctioning Travelling app which will provide the user all information regarding travelling around india. "
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/joy"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/teal_200"/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/Joy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/textbackground"
+                    android:elevation="20dp"
+                    android:text="Joy Gupto"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/thevoyageculture_sans" />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/edit_text_button_rounded"
+                    android:id="@+id/JoyDis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/heading"
+                    android:layout_marginTop="25dp"
+                    android:elevation="10dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="10dp"
+                    android:text="I am in my last semister of B-Tech Computer Science Engineering. I am specialising in Data Analysis.  This app is build by four of us for the capstone research project. This is an fully finctioning Travelling app which will provide the user all information regarding travelling around india."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/md_bodrujjaman"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/teal_200"/>
+
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/Lavlu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/textbackground"
+                    android:elevation="20dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:text="MD. Bodruzzaman"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/edit_text_button_rounded"
+                    android:id="@+id/LavluDis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/heading"
+                    android:layout_marginTop="25dp"
+                    android:elevation="10dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="10dp"
+                    android:text="I am in my last semister of B-Tech Computer Science Engineering. I am specialising in Ciber Security.  This app is build by four of us for the capstone research project. This is an fully finctioning Travelling app which will provide the user all information regarding travelling around india."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/shuvo_mistry"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/teal_200"/>
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/Shuvo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/textbackground"
+                    android:elevation="20dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:text="Shuvo Mistri"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/edit_text_button_rounded"
+                    android:id="@+id/ShuvoDis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/heading"
+                    android:layout_marginTop="25dp"
+                    android:elevation="10dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="10dp"
+                    android:text="I am in my last semister of B-Tech Computer Science Engineering. I am specialising in Ciber Security.  This app is build by four of us for the capstone research project. This is an fully finctioning Travelling app which will provide the user all information regarding travelling around india."
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp" />
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

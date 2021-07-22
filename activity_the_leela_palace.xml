@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="start"
+    tools:context=".TheLeelaPalace">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/scroll">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:background="@color/teal_700"
+            android:id="@+id/theleelapalaceslider"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            app:auto_cycle="true"
+            app:corner_radius="5"
+            app:delay="0"
+            app:error_image="@color/teal_200"
+            app:period="2000"
+            app:placeholder="@color/teal_700"
+            android:src="@drawable/the_leela_palace_new_delhi1" />
+        <ScrollView
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_200">
+            <LinearLayout
+                android:background="@color/textviewcolor"
+                android:elevation="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imagelayout"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/rating"
+                    android:id="@+id/heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="40dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:text="the Leela palace"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/headingtextbackground"
+                    android:elevation="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="About This Hotel"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+                <LinearLayout
+                    android:background="@drawable/navheadersyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+                    <com.codesgood.views.JustifiedTextView
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:elevation="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/heading"
+                        android:id="@+id/description"
+                        android:text="Located in New Delhi's Diplomatic Enclave, The Leela Palace New Delhi is a blend of Lutyen's architecture and the royal Indian culture. A pampering spa, 4 dining options and free parking are available. It is 10 km from popular landmarks such as Red Fort, Lotus Temple and shopping hubs such as Chandni Chowk and Connaught Place and 2.5 km from Embassy of the United States of America."/>
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:elevation="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/heading"
+                        android:id="@+id/description2"
+                        android:text="Elegantly decorated, air-conditioned rooms feature a high-definition flat-screen TV with a DVD player, floor-to-ceiling windows and wooden furnishings. A 2nd flat-screen TV in the bathroom is a mirror when turned off."/>
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:elevation="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/heading"
+                        android:id="@+id/description3"
+                        android:text="The exclusive spa by ESPA offers an Ayurveda inspired day spa menu created for both women and men while rooftop temperature-controlled swimming pool offers the panoramic views of the city's skyline. Guests can also approach the 24-hour front desk to rent a computer or a car.Housed in a modern glass structure, The Qube offers an international and Indian buffet with open kitchens. Other dining options include Le Cirque and MEGU from New York, the award winning restaurants. Indian food is served at Jamavar . Drinks can be enjoyed at the hotel's 2 bars."/>
+
+
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/headingtextbackground"
+                    android:elevation="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Direction"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+                <fragment
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:id="@+id/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"/>
+
+                <TextView
+                    android:elevation="20dp"
+                    android:background="@drawable/headingtextbackground"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/heading1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:textColor="@color/black"
+                    android:text="Additional Information"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:elevation="5dp"
+                    android:background="@drawable/navheadersyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/black"
+                        android:elevation="20dp"
+                        android:textSize="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/heading"
+                        android:id="@+id/description1"
+                        android:text="@string/TheleelapalaceAdditional" />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

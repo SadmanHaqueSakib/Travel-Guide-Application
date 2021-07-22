@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="start"
+    tools:context=".TsoMoririLake">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/scroll">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/tsomoririlakeslider"
+            android:background="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:auto_cycle="true"
+            app:corner_radius="5"
+            app:delay="0"
+            app:error_image="@color/teal_200"
+            app:period="2000"
+            app:placeholder="@color/teal_700" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_200">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imagelayout"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:elevation="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:background="@drawable/headingtextbackground"
+                    android:text="Tso Moriri Lake"/>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/heading"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/navheadersyle"
+                    android:elevation="15dp"
+                    android:text="Tso Moriri Lake in Ladakh. A twin to the popular Pangong Tso Lake, Tso Moriri Lake is a lesser-known lake located in the Changtang Wildlife Sanctuary. Its location contributes to the scenic beauty of this lake. Barren hills with snow-capped mountains in the backdrop make the sight simply breathtaking. The attribute of being a “lesser known” makes this place less crowded so you can be sure of having a place to yourself at the lake. The open sky at Tso Moriri Lake makes it a perfect place for star gazing at night. Moriri Tso, also known as a ‘Mountain Lake’ was declared as a wetland reserve.Various kinds of species including the Brahmin duck, bare-headed goose, the brown-headed gull, and the great-crested grebe are found here, along with Himalayan Hares that are present in large numbers. The peaks that surround this lake are so high that they shut-off this place from the outer world."/>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:background="@drawable/headingtextbackground"
+                    android:elevation="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/heading2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:text="Direction"/>
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:elevation="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+                    <fragment
+                        android:name="com.google.android.gms.maps.SupportMapFragment"
+                        android:id="@+id/map"
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:elevation="20dp"
+                    android:background="@drawable/headingtextbackground"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/heading1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:textColor="@color/black"
+                    android:text="Additional Information"/>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:id="@+id/description2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/heading"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/navheadersyle"
+                    android:elevation="15dp"
+                    android:text="Best Time To Visit: May to August Location: Ladakh."/>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"/>
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>
