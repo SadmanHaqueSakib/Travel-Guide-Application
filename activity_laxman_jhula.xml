@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="start"
+    tools:context=".LaxmanJhula">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/scroll">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/laxmanjhulaslider"
+            android:background="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:auto_cycle="true"
+            app:corner_radius="5"
+            app:delay="0"
+            app:error_image="@color/teal_200"
+            app:period="2000"
+            app:placeholder="@color/teal_700" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_200">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imagelayout"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:elevation="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:background="@drawable/headingtextbackground"
+                    android:text="Laxman Jhula"/>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/heading"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/navheadersyle"
+                    android:elevation="15dp"
+                    android:text="One of the most prominent places in Rishikesh, Laxman Jhula is a 450-feet long suspension bridge at the height of 70 feet from the river. Built in the year 1939, the bridge is an important attraction as it is believed that it is the same place where Lord Laxman crossed the Ganga River on a jute rope.While you will find plenty of cafes on both sides of the bridge, the famous places you should definitely visit are Laxman Temple and Tera Manzil Mandir situated close by.When crossing the bridge, do stop in the middle and just soak in the view of the hills all around you. Nothing is more surreal than this!"/>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:background="@drawable/headingtextbackground"
+                    android:elevation="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/heading2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:text="Direction"/>
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:elevation="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+                    <fragment
+                        android:name="com.google.android.gms.maps.SupportMapFragment"
+                        android:id="@+id/map"
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"/>
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

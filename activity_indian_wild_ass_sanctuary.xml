@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="start"
+    tools:context=".IndianWildAssSanctuary">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/scroll">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/indianwildasssanctuaryslider"
+            android:background="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:auto_cycle="true"
+            app:corner_radius="5"
+            app:delay="0"
+            app:error_image="@color/teal_200"
+            app:period="2000"
+            app:placeholder="@color/teal_700" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_200">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imagelayout"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:elevation="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:background="@drawable/headingtextbackground"
+                    android:text="Indian Wild Ass Sanctuary"/>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/heading"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/navheadersyle"
+                    android:elevation="15dp"
+                    android:text="At a distance of 50 km from Surendranagar, 100 km from Ahmedabad, 238 km from Bhuj and 320 km from Great Rann of Kutch, Indian Wild Ass Sanctuary is a wildlife sanctuary located in the Little Rann of Kutch, Gujarat. Also known as the Wild Ass Wildlife Sanctuary, it is the largest wildlife sanctuary in Gujarat and among the best places to visit in Kutch.Spread over an area of 4954 Sq. km, the wildlife sanctuary was established in 1972 and came under the Wildlife Protection Act of 1972. The Wild Ass Sanctuary of the Little Rann of Kutch is the only place on earth where the endangered Indian Wild Ass, known locally as the ghudkhar, still lives. One of the three surviving species of the Wild Ass in the world-the other two being found in Central Asia and in and around Tibet, the Khur is high on the list of endangered species. Known for its speed, the wild ass lives in herds led by stallions and survived by migrating between the grassy 'bets' through the season, in search of food. There are around 3000 wild asses in the sanctuary and can be best seen in and around October and November.Apart from wild ass, the sanctuary is also home to 32 other species of mammals such as chinkara, two types of desert fox, jackals, caracals, nilgais, Indian wolves, blackbucks, and striped hyenas along with 350 different species of birds, including the common crane, pelican and the lesser flamingo. Interestingly, the Little Rann gets a fair number of winged visitors in the winter months. Among these, the ceraneous vulture comes from Egypt, the common and demoiselle cranes arrive from Siberia, the blue-tailed bee-eater visits from Europe, and the houbara bustard of Iran and Iraq are the most commonly sighted birds here. Also, the sanctuary is home to a sizeable population of Rabari and Bharwad tribes.To experience the best of the wildlife sanctuary, one should go for a jeep safari tour. There are two main entrances to the sanctuary at Dhrangadhra and Bajana. Most people prefer to enter the Sanctuary at Range Bajana because this is where one can find migratory birds but Dhrangadhra town offers good accommodation, dining and transportation facilities. Excursions by jeep at specific times in the morning and evening are available from Dhrangadhra and Patadi or Zainabad for Bajana Range. There are also private jeeps for hire from any of these places. It's necessary for a sanctuary guide to accompany visitors on safaris."/>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:background="@drawable/headingtextbackground"
+                    android:elevation="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/heading2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:text="Direction"/>
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:elevation="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+                    <fragment
+                        android:name="com.google.android.gms.maps.SupportMapFragment"
+                        android:id="@+id/map"
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:elevation="20dp"
+                    android:background="@drawable/headingtextbackground"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/heading1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:textColor="@color/black"
+                    android:text="Additional Information"/>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:id="@+id/description2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/heading"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/navheadersyle"
+                    android:elevation="15dp"
+                    android:text="Timings: 6 AM - 6 PM, Closed during monsoon. Entry: Rs. 250 for Indians and Rs. 1200 for Foreigners (25% extra on weekends), Rs. 200 for Camera for Indians and Rs. 1000 for Camera for Foreigners, Rs. 2000 for Jeep."/>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"/>
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

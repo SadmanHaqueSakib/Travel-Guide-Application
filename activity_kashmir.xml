@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kashmir">
+
+    <LinearLayout
+        android:id="@+id/sliderlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="4dp">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/kashmirslider"
+            android:background="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:auto_cycle="true"
+            app:corner_radius="5"
+            app:delay="0"
+            app:error_image="@color/teal_200"
+            app:period="2000"
+            app:placeholder="@color/teal_700" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/teal_200"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/recycler1"
+        android:layout_below="@+id/sliderlayout">
+        <ScrollView
+            android:background="@color/textviewcolor"
+            android:elevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:elevation="5dp"
+                android:padding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:elevation="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:fontFamily="@font/thevoyageculture_sans"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="8dp"
+                        android:textAllCaps="true"
+                        android:text="All Places"
+                        android:textSize="25sp" />
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:elevation="10dp"
+                        android:id="@+id/recyclerplace"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </androidx.recyclerview.widget.RecyclerView>
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:elevation="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:fontFamily="@font/thevoyageculture_sans"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="8dp"
+                        android:textAllCaps="true"
+                        android:text="All Foods"
+                        android:textSize="25sp" />
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:elevation="10dp"
+                        android:id="@+id/recyclerfood"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </androidx.recyclerview.widget.RecyclerView>
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:elevation="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:fontFamily="@font/thevoyageculture_sans"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="8dp"
+                        android:textAllCaps="true"
+                        android:text="All Hotels"
+                        android:textSize="25sp" />
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:elevation="10dp"
+                        android:id="@+id/recyclerhotels"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </androidx.recyclerview.widget.RecyclerView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

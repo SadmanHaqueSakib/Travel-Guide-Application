@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="start"
+    tools:context=".Lakhpat">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/scroll">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/lakhpatslider"
+            android:background="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:auto_cycle="true"
+            app:corner_radius="5"
+            app:delay="0"
+            app:error_image="@color/teal_200"
+            app:period="2000"
+            app:placeholder="@color/teal_700" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_200">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imagelayout"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:elevation="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:background="@drawable/headingtextbackground"
+                    android:text="Lakhpat"/>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/heading"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/navheadersyle"
+                    android:elevation="15dp"
+                    android:text="At a distance of 33 km from Narayan Sarovar, 100 km from Rann of Kutch and 138 km from Bhuj, Lakhpat is an abandoned town in Kutch district of Gujarat. At the junction of Kori creek and Rann of Kutch, it is the last town situated at the western end of India, on the India - Pakistan border and among the popular places to visit in Kutch.Lakhpat derives its name from the prosperous maritime trade which generated a daily income of One Lakh Koris, a Kutch monetary unit. According to another legend, the town was founded by Rao Lakha, so it was known as Lakhpat. Lakhpat is a fortified town with high walls, several gates and bastions made out of hard stone. The 7 km fort walls, erected in 1801 by Fateh Muhammed, are still nearly intact, and offer tremendous views out over the Rann.Lakhpat was an important port city during the 1800s which had a population of about 15000 people. History suggests that before the earthquake, the Indus River used to flow right next to the town and connected it to the nearby sea. After the 1819 earthquake, the Indus River shifted its course and left the area barren. Most of the families, living inside its forted walls moved to other cities, but those left behind, are now living a life of hardship, and adversity.This is also a seat of worship for Sikhs, Hindus and Muslims. Guru Nanak, the founder of Sikhism, reportedly camped here on his journey to Mecca. The site later became a gurudwara, which holds some of Nanak's possessions. There is a Dargah of Pir Ghaus Muhammad, a Sufi saint who devoted himself to spiritual practice from the age of twelve. His tomb is a stone construction with very complex carvings and a water tank that is said to have healing properties for skin problems. One can also visit Sayyed Pir Shah's nine-domed mausoleum at Lakhpat which has intricate carvings, doors, windows and jaalis."/>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:background="@drawable/headingtextbackground"
+                    android:elevation="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/heading2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:text="Direction"/>
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:elevation="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+                    <fragment
+                        android:name="com.google.android.gms.maps.SupportMapFragment"
+                        android:id="@+id/map"
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:elevation="20dp"
+                    android:background="@drawable/headingtextbackground"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/heading1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:fontFamily="@font/thevoyageculture_sans"
+                    android:textColor="@color/black"
+                    android:text="Additional Information"/>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:id="@+id/description2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/heading"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/navheadersyle"
+                    android:elevation="15dp"
+                    android:text="Timings: 6 AM - 6 PM."/>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"/>
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>
